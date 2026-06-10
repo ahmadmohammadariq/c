@@ -149,35 +149,35 @@ int f4(double sal[], char gan[], int size) {
 
 
 int main() {
-    //  const int size = 3;
-      //double w[size];
-      //double h[size];
-      //f1(w, h, size);
-      //for (int i = 0; i < size; i++) {
-        //  double bmi = w[i] / (h[i] * h[i]); 
-          //cout << "Person " << i + 1 << " BMI = " << bmi << " → ";
-          //if (bmi < 18.5)
-            //  cout << "Underweight";
-          //else if (bmi < 25)
-            //  cout << "Normal";
-         // else
-           //   cout << "Overweight";
-         // cout << endl;
-      //}
-  //    int rows = 6;
-     // for (int i = 1; i <= rows; i++) {
-   //       if (i % 2 != 0) {
-         //     for (int j = 1; j <= i; j++) {
-        //          cout << "* ";
-      //        }
-    //      }
-          //else {
-              //for (int j = 1; j <= i; j++) {
-              //    cout << "+ ";
-            //  }
-          //}
-        //  cout << endl;
-      //}
+      const int size = 3;
+      double w[size];
+      double h[size];
+      f1(w, h, size);
+      for (int i = 0; i < size; i++) {
+          double bmi = w[i] / (h[i] * h[i]); 
+          cout << "Person " << i + 1 << " BMI = " << bmi << " → ";
+          if (bmi < 18.5)
+              cout << "Underweight";
+          else if (bmi < 25)
+              cout << "Normal";
+         else
+              cout << "Overweight";
+          cout << endl;
+      }
+    int rows = 6;
+      for (int i = 1; i <= rows; i++) {
+          if (i % 2 != 0) {
+              for (int j = 1; j <= i; j++) {
+                  cout << "* ";
+              }
+          }
+          else {
+              for (int j = 1; j <= i; j++) {
+                  cout << "+ ";
+              }
+          }
+      cout << endl;
+     }
     const int  size = 3;
     double sal[size];
     char gan[size];
@@ -397,63 +397,63 @@ int main()
 ///////////////
 
 
-//#include <iostream>
-//#include <cmath>
-//using namespace std;
-//int getfactorial(int num) {
-  //  int f = 1;
-    //for (int i = 1;i <= num;i++)
-      //  f *= i;
-    //return f;
-//}
-//int main() {
-  //  int num;
-    //cout << "entre num 1:\n";
-    //cin >> num;
-   //cout<< getfactorial(num);  
-    //return 0;
-//}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int getfactorial(int num) {
+    int f = 1;
+    for (int i = 1;i <= num;i++)
+        f *= i;
+    return f;
+}
+int main() {
+    int num;
+    cout << "entre num 1:\n";
+    cin >> num;
+   cout<< getfactorial(num);  
+    return 0;
+}
 
 
 ///////////////////////////////
 
 
-//#include <iostream>
-//#include <cmath>
-//using namespace std;
-//double avg(double sum, int n) {
-  //  return sum/n;
-//}
-//int main() {
-  //  int n;
-    //double sum;
-    //cout << "enter the sum of valuoe and total of marks :\n";
-    //cin >> sum >> n;
-    //cout << avg(sum, n);
-//    return 0;
-//}
+#include <iostream>
+#include <cmath>
+using namespace std;
+double avg(double sum, int n) {
+    return sum/n;
+}
+int main() {
+    int n;
+    double sum;
+    cout << "enter the sum of valuoe and total of marks :\n";
+    cin >> sum >> n;
+    cout << avg(sum, n);
+  return 0;
+}
 
 
 ///////////////////////
 
 
-//#include <iostream>
-//#include <cmath>
-//using namespace std;
-//int getmax(int n1, int n2) {
-    //if (n1 > n2)
-     //   return n1;
-   // else 
-  //  return n2;
-//}
-//int main() {
-    //int n1, n2;
-    //cout << "enter two num :";
-    //cin >> n1 >> n2;
-    //cout << "max num between " << n1 << " and " << n2
-    //    << " is " << getmax(n1, n2);
-  //  return 0;
-//}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int getmax(int n1, int n2) {
+    if (n1 > n2)
+        return n1;
+    else 
+    return n2;
+}
+int main() {
+    int n1, n2;
+    cout << "enter two num :";
+    cin >> n1 >> n2;
+    cout << "max num between " << n1 << " and " << n2
+        << " is " << getmax(n1, n2);
+    return 0;
+}
 
 
 
@@ -463,69 +463,69 @@ int main()
 
 
 
-//#include <iostream>
-//using namespace std;
-//int getmin(int n1, int n2) {
-    //if (n1 > n2)
-      //  return n2;
-    //else
-  // return n1;
-//}
-//int main() {
-    //int n1, n2;
-   // cout << "Enter two numbers: ";
-    //cin >> n1 >> n2;
-    //cout << "Min number between " << n1 << " and " << n2
-    //    << " is " << getmin(n1, n2);
-  //  return 0;
-//}
+#include <iostream>
+using namespace std;
+int getmin(int n1, int n2) {
+    if (n1 > n2)
+        return n2;
+    else
+   return n1;
+}
+int main() {
+    int n1, n2;
+    cout << "Enter two numbers: ";
+    cin >> n1 >> n2;
+    cout << "Min number between " << n1 << " and " << n2
+        << " is " << getmin(n1, n2);
+    return 0;
+}
 
 
 
 
-/////////////////////////
+///////////////////////
 
 
 
-//#include <iostream>
-//using namespace std;
-//int getmax(int n1, int n2) {
-    //if (n1 > n2)
-     //  return n1;
-   //else 
-  //  return n2;
-//}
-//int f1(int n1, int n2, int n3) {
-  //  return getmax(n1, getmax(n2, n3));
-//}
-//int main() {
-    //int n1, n2, n3;
-    //cout << "entre 3 num :";
-    //cin >> n1 >> n2 >> n3;
-    //cout << "max num between" << n1 <<","<< n2 <<","<< n3 <<
-    //    "is" << f1(n1, n2, n3) << endl;
-  //  return 0;
-//}
+#include <iostream>
+using namespace std;
+int getmax(int n1, int n2) {
+    if (n1 > n2)
+       return n1;
+   else 
+    return n2;
+}
+int f1(int n1, int n2, int n3) {
+    return getmax(n1, getmax(n2, n3));
+}
+int main() {
+    int n1, n2, n3;
+    cout << "entre 3 num :";
+    cin >> n1 >> n2 >> n3;
+    cout << "max num between" << n1 <<","<< n2 <<","<< n3 <<
+        "is" << f1(n1, n2, n3) << endl;
+    return 0;
+}
 
 
 
-//////////////////////////
+////////////////////////
 
 
-//#include <iostream>
-//#include<cmath> 
-//using namespace std;
-//int getvol1(double n) {
-    //    return  n * n * n;
-//}
-//int main() {
-  //  int n ;
-  //  cout << "enter num:";
-  //  cin >> n;
-  //  cout << " The volume of a cube:" << getvol1(n) << endl;
-   // double volume = getvol1(n);
-  //return 0;
-//}
+#include <iostream>
+#include<cmath> 
+using namespace std;
+int getvol1(double n) {
+        return  n * n * n;
+}
+int main() {
+    int n ;
+    cout << "enter num:";
+    cin >> n;
+    cout << " The volume of a cube:" << getvol1(n) << endl;
+    double volume = getvol1(n);
+  return 0;
+}
 
 
 
@@ -534,96 +534,20 @@ int main()
 
 
 
-//#include<iostream> 
-//#include<cmath> 
-//using namespace std;
-//double f1(double r , double h ) {
-    //double π = 3.14;
-  //  return  π * r * r * h;
-//}
-//int main(){
-    //int r, h;
-    //cout << "Enter radius and height of a cylinder:" << endl;
-    //cin >> r>> h;
-    //cout << " Volume of cylinder is " << f1(r, h)<< endl;
-  //  return 0;
-//}
-
-
-
-
-///////////////////////////////////
-
-
-
-//#include<iostream> 
-//#include<cmath> 
-//using namespace std;
-//double f1(double r) {
-  //  double π = 3.14;
-    //return (4.0 / 3.0) * π * r * r * r;
-//}
-//int main() {
-  //  int r;
-    //cout << "enter r :";
-   // cin >> r;
-    //cout << "Volume of sphere is " << f1(r) << endl;
-    //return 0;
-//}
-
-
-
-/////////////////////////////
-
-
-
-
-
-
-//#include<iostream> 
-//#include<cmath> 
-//using namespace std;
-//void printEven() {
-    //for (int i = 1; i <= 100; i++) {
-        //if (i % 2 == 0) {
-      //      cout << i << " ";
-    //    }  
-  //  }
-//}
-//int main() {
-    //printEven(); 
-   // return 0;
-//}
-
-
-
-
-
-///////////////////////////////////
-
-
-// #include<iostream>
-//#include<cmath> 
-//using namespace std;
-//void f1(int x) {
- //   if (x % 2 == 0) {
-     //   cout << "even\n";
-   // }
-    //if (x % 2 != 0) {
-      //  cout << "odd";
-    //}
-//}
-//int main() {
-  //  int x;
-   // cout << "enter x :";
-   // cin >> x;
-  //  f1(x);
-  //  return 0;
-//}
-
-
-
-
+#include<iostream> 
+#include<cmath> 
+using namespace std;
+double f1(double r , double h ) {
+    double π = 3.14;
+    return  π * r * r * h;
+}
+int main(){
+    int r, h;
+    cout << "Enter radius and height of a cylinder:" << endl;
+    cin >> r>> h;
+    cout << " Volume of cylinder is " << f1(r, h)<< endl;
+    return 0;
+}
 
 
 
@@ -632,60 +556,135 @@ int main()
 
 
 
+#include<iostream> 
+#include<cmath> 
+using namespace std;
+double f1(double r) {
+    double π = 3.14;
+    return (4.0 / 3.0) * π * r * r * r;
+}
+int main() {
+    int r;
+    cout << "enter r :";
+    cin >> r;
+    cout << "Volume of sphere is " << f1(r) << endl;
+    return 0;
+}
+
+
+
+///////////////////////////
 
 
 
 
-//#include <iostream>
-//using namespace std;
-//double calculateAverage(double sum, int count) {
-   // if (count == 0)
-       // return 0;
-    //return sum / count;
-//}
-//char getGrade(double mark) {
-   // int m = mark / 10;   
-   // switch (m) {
-   // case 10:
-    //case 9: return 'A';   
-    //case 8: return 'B';   
-   // case 7: return 'C';   
-   // case 6: return 'D';    
-  //  case 5: return 'E';    
-  //  default: return 'F';  
-  //  }
-//}
-//char getResult(double average) {
-   // if (average >= 50)
-   //     return 'P';
-  //  else
-   //     return 'F';
-//}
-//void printResult(double average) {
-   // char result = getResult(average);
-   // /if (result == 'P')
-     //   cout << "Congratulations!!! You Passed!!!" << endl;
-    ///else
-    //    cout << "Sorry!!! You Failed!!!" << endl;
-//}
-//int main() {
-   // double mark, sum = 0;
-  //  int count = 0;
-  //  cout << "Enter marks (negative number to stop):" << endl;
-  //  while (true) {
-       // cin >> mark;
-      //  if (mark < 0)
-      //      break;
-      //  sum += mark;
-       // count++;
-     //   cout << "Grade: " << getGrade(mark) << endl;
-    //}
-  //  double average = calculateAverage(sum, count);
-  //  cout << "Average = " << average << endl;
-    //printResult(average);
-   // return 0;
-//}
 
+
+#include<iostream> 
+#include<cmath> 
+using namespace std;
+void printEven() {
+    for (int i = 1; i <= 100; i++) {
+        if (i % 2 == 0) {
+            cout << i << " ";
+        }  
+    }
+}
+int main() {
+    printEven(); 
+    return 0;
+}
+
+
+
+
+
+/////////////////////////////////
+
+
+ #include<iostream>
+#include<cmath> 
+using namespace std;
+void f1(int x) {
+    if (x % 2 == 0) {
+        cout << "even\n";
+    }
+    if (x % 2 != 0) {
+        cout << "odd";
+    }
+}
+int main() {
+    int x;
+    cout << "enter x :";
+    cin >> x;
+    f1(x);
+    return 0;
+}
+
+
+
+
+
+
+
+
+///////////////////////////////
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+double calculateAverage(double sum, int count) {
+    if (count == 0)
+        return 0;
+    return sum / count;
+}
+char getGrade(double mark) {
+    int m = mark / 10;   
+    switch (m) {
+    case 10:
+    case 9: return 'A';   
+    case 8: return 'B';   
+    case 7: return 'C';   
+    case 6: return 'D';    
+    case 5: return 'E';    
+    default: return 'F';  
+    }
+}
+char getResult(double average) {
+    if (average >= 50)
+        return 'P';
+    else
+        return 'F';
+}
+void printResult(double average) {
+    char result = getResult(average);
+    /if (result == 'P')
+        cout << "Congratulations!!! You Passed!!!" << endl;
+    /else
+        cout << "Sorry!!! You Failed!!!" << endl;
+}
+int main() {
+    double mark, sum = 0;
+    int count = 0;
+    cout << "Enter marks (negative number to stop):" << endl;
+    while (true) {
+        cin >> mark;
+        if (mark < 0)
+            break;
+        sum += mark;
+        count++;
+        cout << "Grade: " << getGrade(mark) << endl;
+    }
+    double average = calculateAverage(sum, count);
+    cout << "Average = " << average << endl;
+    printResult(average);
+    return 0;
+}
 
 
 ///////////////
@@ -693,57 +692,58 @@ int main()
 أمور مدرسه
 
 
-//#include <iostream>
-//using namespace std;
 
-//int main() {
+#include <iostream>
+using namespace std;
 
-    //int i = 0;
+int main() {
 
-   // while (i <= 200) {
-        //if (i % 2==0) {
-          //  cout << i << endl;
-        //}
-      //  i++;
-    //}
+    int i = 0;
 
-   // return 0;
- //}
-//////////////////////////////
-//#include <iostream>
-//using namespace std;
+    while (i <= 200) {
+        if (i % 2==0) {
+            cout << i << endl;
+        }
+        i++;
+    }
 
-//int main() {
+    return 0;
+ }
+////////////////////////////
+#include <iostream>
+using namespace std;
 
-    //double x, y, result;
-    //char op;
+int main() {
 
-    //cout << "اnum 1: ";
-   // cin >> x;
+    double x, y, result;
+    char op;
 
-    //cout << " (+  -  *  /): ";
-    //cin >> op;
+    cout << "اnum 1: ";
+    cin >> x;
 
-    //cout << "num 2: ";
-   // cin >> y;
+    cout << " (+  -  *  /): ";
+    cin >> op;
 
-    //if (op == '+')
-      //  result = x + y;
-    //else if (op == '-')
-      //  result = x - y;
-    //else if (op == '*')
-       // result = x * y;
-    //else if (op == '/')
-     //   result = x / y;
-   // else {
-        //cout << "eror" << endl;
-      //  return 0;
-    //}
+    cout << "num 2: ";
+    cin >> y;
 
-    //cout << "ruslt = " << result << endl;
+    if (op == '+')
+        result = x + y;
+    else if (op == '-')
+        result = x - y;
+    else if (op == '*')
+        result = x * y;
+    else if (op == '/')
+        result = x / y;
+    else {
+        cout << "eror" << endl;
+        return 0;
+    }
 
-  //  return 0;
-//}
+    cout << "ruslt = " << result << endl;
+
+    return 0;
+}
 
 
 
